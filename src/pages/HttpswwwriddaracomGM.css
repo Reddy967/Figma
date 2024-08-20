@@ -1,0 +1,106 @@
+.vision-shape-icon {
+  height: 400px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.vision1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 27px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+}
+.vision-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.blank-line {
+  margin: 0;
+}
+.to-be-part-container {
+  height: 81px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 27px;
+  display: inline-block;
+  z-index: 1;
+}
+.vision-heading-parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 117px;
+  right: 243px;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.httpswwwriddaracom-gm,
+.vision,
+.vision-content,
+.vision-heading-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vision-content {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.httpswwwriddaracom-gm,
+.vision {
+  box-sizing: border-box;
+}
+.vision {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 91px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.httpswwwriddaracom-gm {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  gap: 12px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .vision1 {
+    font-size: var(--font-size-10xl);
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .vision {
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .vision1 {
+    font-size: var(--font-size-3xl);
+    line-height: 16px;
+  }
+  .to-be-part-container {
+    font-size: var(--font-size-lg);
+    line-height: 22px;
+  }
+}

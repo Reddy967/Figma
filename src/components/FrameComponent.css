@@ -1,0 +1,199 @@
+.process {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 82px;
+}
+.process-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-50xl) 0 var(--padding-51xl);
+}
+.how-it-woks {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 46px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-darkslateblue-100);
+}
+.process-flow,
+.process-step-one {
+  display: flex;
+  align-items: flex-start;
+}
+.process-step-one {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.process-flow {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+}
+.download-resume-child {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.download-matched {
+  margin: 0;
+}
+.download-matched-resume-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.download-resume {
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  min-width: 282px;
+}
+.display-resume,
+.process-step-two {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.display-resume {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  min-width: 459px;
+}
+.process-step-two {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-28xl);
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslateblue-100);
+}
+.frame-child8 {
+  height: 56px;
+  width: 194px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumseagreen);
+  display: none;
+}
+.find-out-here {
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 118px;
+  z-index: 1;
+}
+.arrow-icon2 {
+  width: 13px;
+  height: 8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.arrow-frame,
+.rectangle-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.rectangle-parent4 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumseagreen);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-lg) var(--padding-sm);
+  gap: var(--gap-8xl);
+  cursor: pointer;
+}
+.process-link {
+  width: 1010px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.process-container,
+.process-container-wrapper,
+.process-link {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.process-container {
+  width: 1129px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+}
+.process-container-wrapper {
+  width: 1429px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-123xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .process-container {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .how-it-woks {
+    font-size: var(--font-size-10xl);
+    line-height: 37px;
+  }
+  .process-step-two {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .download-resume {
+    flex: 1;
+  }
+  .display-resume {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+    min-width: 100%;
+  }
+  .process-step-two {
+    gap: var(--gap-4xl);
+  }
+  .process-container {
+    gap: var(--gap-mid);
+  }
+  .process-container-wrapper {
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .how-it-woks {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .download-matched-resume-container {
+    font-size: var(--font-size-3xl);
+    line-height: 27px;
+  }
+}
